@@ -7,11 +7,11 @@ from datetime import date
 from datetime import datetime
 
 # Set up the authentication credentials
-username = 'your username'                                    #edit it
-password = 'your github password'                             #edit it
-repository_name = 'repo name'                                 #this too
-file_path = 'file path in the following repo'                 #this also
-commit_message = 'commit message'                             #guessed right
+username = 'your username'                                    # Edit it
+password = 'your github password'                             # Edit it
+repository_name = 'repo name'                                 # This too
+file_path = 'file path in the following repo'                 # This also
+commit_message = 'commit message'                             # This too
 
 # Create a new file or update an existing one
 url = f'https://api.github.com/repos/{username}/{repository_name}/contents/{file_path}'
